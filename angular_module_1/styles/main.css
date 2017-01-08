@@ -13,3 +13,8 @@ p.status-message {
 	color: green;
 	border: 1px solid green;
 }
+
+#alert-message {
+	font-style: italic;
+	margin: 20px 0px 20px;
+}
