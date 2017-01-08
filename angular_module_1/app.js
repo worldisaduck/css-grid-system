@@ -6,6 +6,7 @@
 
 	function LunchCheckControll ($scope) {
 		$scope.dishesList = '';
+		$scope.placeholder = 'list comma separated dishes you usually have for lunch';
 		$scope.countDishes = function (string) {
 			var dishesList = string.split(/[\s,]+/);
 			var dishesAmount = dishesList.length;

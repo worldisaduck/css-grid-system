@@ -16,8 +16,8 @@
      <h1>Lunch Checker</h1>
          <p id='alert-message'>* <b>,,</b> and <b>, ,</b> considered as an empty item!</p>
          <div class="form-group">
-             <input id="lunch-menu" type="text"
-             placeholder="list comma separated dishes you usually have for lunch"
+             <input id="lunch-menu-{{status}}" type="text"
+             placeholder={{placeholder}}
              class="form-control" ng-model='dishesList'>
          </div>
          <div class="form-group">

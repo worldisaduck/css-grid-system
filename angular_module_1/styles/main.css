@@ -1,17 +1,17 @@
-p.status-message {
-	text-align: center;
-	width: 20%;
-	padding: 5px;
-}
-
 #red {
 	color: red;
-	border: 1px solid red;
 }
 
 #green {
 	color: green;
-	border: 1px solid green;
+}
+
+#lunch-menu-green {
+	border: 2px solid green;
+}
+
+#lunch-menu-red {
+	border: 2px solid red;
 }
 
 #alert-message {
